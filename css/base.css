@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'NGothic';
+   src: url('../font/NanumGothic.woff') format('woff');}
+
+@font-face {
+   font-family: 'NGothicEB';
+   src: url('../font/NanumGothicExtraBold.woff') format('woff');}
+ 
+ @font-face {
+   font-family: 'Montserrat';
+   src: url('../font/Montserrat-Regular.woff')
+   format('woff');
+ }
+ 
+ @font-face {
+  font-family: 'NBGothic';
+  src: url('../font/NanumBarunGothic.woff')
+  format('woff');
+}
+
+@font-face {
+  font-family: 'NBGothicBold';
+  src: url('../font/NanumBarunGothicBold.woff')
+  format('woff');
+}
+
+@font-face {
+  font-family: 'NBGothicL';
+  src: url('../font/NanumBarunGothicLight.woff')
+  format('woff');
+}

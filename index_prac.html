@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index_prac.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="skip_menu" class="skip">
+    <a href="#menuwrap">메뉴 바로가기</a>
+  </div>
+    <header id="mobile_h">
+        <h1><a href="#"><img src="img/logo.jpg" alt="logo" width="200px" height="45px"></a></h1>
+        <button class="hambtn"><img src="img/ham.png" alt="hammenu"></button>
+        <a class="m_deli" href="#"><img id="m_deli" src="img/delivery.png" alt="delivery"></a>
+    </header>
+    
+    <header id="tablet_h">
+        <h1><a href="#"><img src="img/logo.jpg" alt="logo" width="210px" height="50px"></a></h1>
+        <button class="hambtn"><img src="img/ham.png" alt="hammenu"></button>
+        <a href="#"><img id="t_deli" src="img/delivery.png" alt="delivery"></a>
+    </header>
+
+    <header id="pc_h">
+        <h1><a href="#"><img src="img/logo.jpg" alt="logo" width="250px" height="60px"></a></h1>
+        <a href="#"><img id="p_deli" src="img/delivery.png" alt="delivery"></a>
+
+        <ul id="sns" >
+        <li><a href="#"><img src="img/blog.png" alt="blog"></a>
+        </li>
+        <li><a href="#"><img src="img/insta.png" alt="insta"></a>
+        </li>
+        <li><a href="#"><img src="img/youtube.png" alt="youtube"></a>
+        </li>
+        </ul>
+
+        <a href="#"><img id="p_fran" src="img/a_franchise.png" alt="가맹문의"></a>
+    </header>
+
+    <nav id="pc_nav">
+        <div id="menu">
+          <ul class="gnb cf">
+            <li><a href="#">브랜드소개</a></li>
+            <li><a href="#">메뉴소개</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">가맹문의</a></li>
+          </ul>
+        </div>
+
+       <div id="f_menu">
+        <div id="mbox" class="cf">
+          <ul>
+            <li><a href="#">브랜드 스토리</a></li>
+            <li><a href="#">경영 철학</a></li>
+            <li><a href="#">브랜드 소식</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">버거</a></li>
+            <li><a href="#">사이드</a></li>
+            <li><a href="#">세트</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">진행중인 이벤트</a></li>
+            <li><a href="#">종료된 이벤트</a></li>
+          </ul>
+          <ul>
+            <li></li>
+          </ul>
+          <ul>
+            <li><a href="#">성공전략</a></li>
+            <li><a href="#">창업조건 및 개설비용</a></li>
+            <li><a href="#">창업자금 지원기관</a></li>
+            <li><a href="#">가맹FAQ</a></li>
+            <li><a href="#">가맹상담</a></li>
+            <li><a href="#">마스터 프랜차이즈</a></li>
+          </ul>
+        </div>
+       </div>
+    </nav>  
+
+    <!--hamburger menu-->
+    <div id="ham_contain">
+      <button class="close"><img src="img/close.png" alt="close"></button>
+
+     <div id="wrap1">
+       <div id="logo">
+          <a href="#"><img src="img/ham_logo.png" alt="logo" width="200px" height="50px"></a>
+       </div>
+       <div id="join-wrap">
+          <ul class="member">
+              <li><a href="#">로그인 <span>/</span></a></li>
+              <li><a href="#">회원가입</a></li>
+          </ul>
+       </div>
+     </div>
+
+     <div id="h_menuwrap">
+      <nav id="ham_menu">
+          <ul>
+              <li class="m1"><a href="#">브랜드 소개<img src="img/arrow-down2.png" alt="down"></a>
+                  <ul class="sub">
+                      <li><a href="#">브랜드 스토리</a></li>
+                      <li><a href="#">경영 철학</a></li>
+                      <li><a href="#">브랜드 소식</a></li>
+                  </ul>
+              </li>
+              <li class="m1"><a href="#">메뉴 소개<img src="img/arrow-down2.png" alt="down"></a>
+                  <ul class="sub">
+                      <li><a href="#">버거</a></li>
+                      <li><a href="#">사이드</a></li>
+                      <li><a href="#">세트</a></li>
+                  </ul>
+              </li>
+              <li class="m1"><a href="#">이벤트<img src="img/arrow-down2.png" alt="down"></a>
+                  <ul class="sub">
+                      <li><a href="#">진행중인 이벤트</a></li>
+                      <li><a href="#">종료된 이벤트</a></li>
+                  </ul>
+              </li>
+              <li class="m1"><a href="#">매장찾기</a>
+              </li>
+              <li class="m1"><a href="#">가맹문의<img src="img/arrow-down2.png" alt="down"></a>
+                  <ul class="sub">
+                      <li><a href="#">성공전략</a></li>
+                      <li><a href="#">창업조건 및 개설비용</a></li>
+                      <li><a href="#">창업자금 지원기관</a></li>
+                      <li><a href="#">가맹FAQ</a></li>
+                      <li><a href="#">가맹상담</a></li>
+                      <li><a href="#">마스터 프랜차이즈</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+
+      <div id="ham_sns">
+          <p>FRANK'S SNS</p>
+          <a href="#"><img src="img/blog_w.png" alt="blog" width="18px" height="22px"></a>
+          <a href="#"><img src="img/instagram_w.png" alt="instagram" width="22px" height="22px"></a>
+          <a href="#"><img src="img/youtube_w.png" alt="youtube" width="22px" height="22px"></a>
+      </div>                             
+     </div>
+
+
+
+
+  </div>
+
+    <!--mobile image banner-->
+    <div id="m_banner">
+      <ul class="ban">
+          <li class="slick-slide"><img src="img/m_patty.png" alt="banner"></li>
+          <li class="slick-slide"><img src="img/m_new.png" alt="banner"></li>
+          <li class="slick-slide"><img src="img/m_banner.png" alt="banner"></li>
+      </ul>
+  </div>
+
+<!--tablet/pc video banner-->
+<div id="video_wrap">
+<div id="video_banner">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/729093914?autoplay=true&loop=true&muted=true&h=20e084875b" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<!--mobile menu-->
+<section id="menuwrap">
+<h2>MENU</h2>
+<div id="menubox">
+<ul class="mlist cf">
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/frankbg.png" alt="frankbg">
+  <span class="name">프랭크 버거</span>
+  <!-- <span class="txt">육즙 가득한 수제패티와 신선한 채소가<br>잘 어우러져 기본에 충실한 <br>미국 동부식 오리지널 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/cheesebg.png" alt="cheesebg">
+  <span class="name">치즈 버거</span>
+  <!-- <span class="txt">대표메뉴로서 100% 수제패티와<br>체다 치즈의 깊은 풍미를 이룬<br>시그니처 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/jgbg.png" alt="jgbg">
+  <span class="name">JG 버거</span>
+  <!-- <span class="txt">정통 아메리칸 스타일의 구운 베이컨에<br>꾸덕한 치즈 소스가 듬뿍 들어가<br>풍만함이 최상인 마지막 종결 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/baconchzbg.png" alt="baconcheesebg">
+  <span class="name">베이컨 치즈 버거</span>
+  <!-- <span class="txt">수제패티에 하와이안 스타일의<br>구운 파인애플과 베이컨이<br>조화를 이룬 스페셜 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/mushroombg.png" alt="frankbg">
+  <span class="name">머쉬룸 버거</span>
+  <!-- <span class="txt">진하게 구운 로스팅 버섯과<br>트러플 데리야끼 소스로 깊은 풍미의<br>프리미엄 머쉬룸 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/shrimpbg.png" alt="frankbg">
+  <span class="name">쉬림프 버거</span>
+  <!-- <span class="txt">탱탱한 새우가 들어간 새우패티를<br>바삭하게 튀겨 새콤달콤한 특제소스와<br>조화를 이룬 프리미엄 새우 버거</span> -->
+  </div>
+</a></li>
+<li class="slick-slide"><a href="#">
+  <div class="wrap">
+  <img src="img/dcheesebg.png" alt="frankbg" width="70%">
+  <span class="name">더블 치즈 버거</span>
+  <!-- <span class="txt">진정한 수제패티의 깊은 맛을<br>느끼고 싶다면 패티 2장으로<br>풍미도 두 배! 맛도 두 배!</span> -->
+  </div>
+</a></li>
+</ul>
+</div>
+</section>
+
+
+<div id="contain">
+  <div id="transcroller-body" class="aos-all"></div>
+  <div class="store aos-item" data-aos="fade-up">
+    <img src="img/s_store.png" alt="search"><a href="#"><button class="sbtn">매장찾기</button></a>
+  </div>
+  <div class="franchise aos-item" data-aos="fade-up" data-aos-delay="200">
+    <img src="img/franchise2.png" alt="franchise"><a href="#"><button class="fbtn">가맹문의</button></a>
+  </div>
+</div>
+
+<div id="bg">
+<div id="t_contain">
+  <div id="transcroller-body" class="aos-all"></div>
+  <div class="t_store aos-item" data-aos="fade-left" data-aos-duration="1000">
+  <img src="img/t_store2.png" alt="search"><a href="#"><button class="sbtn">매장찾기</button></a>
+  </div>
+  <div class="t_franchise aos-item" data-aos="fade-right" data-aos-duration="1000">
+    <img src="img/franchise2.png" alt="franchise"><a href="#"><button class="fbtn">가맹문의</button></a>
+  </div>
+</div>
+</div>
+
+<div id="backimg">
+  <div id="pc_contain">
+    <div id="transcroller-body" class="aos-all"></div>
+    <div class="map aos-item" data-aos="fade-right" data-aos-duration="1000">
+      <a href="#">
+        <h3>매장찾기</h3>
+        <p>풍미가득 수제패티<br>
+        <span>프랭크버거 매장</span>을 찾아보세요!</p>
+      </a>
+      <div class="btn_more">
+        <a href="#">MORE</a>
+      </div>
+    </div>
+
+    <div id="transcroller-body" class="aos-all"></div>
+    <div class="pc_fran aos-item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+      <a href="#">
+        <h3>가맹문의</h3>
+        <p>수제버거 업계 <span>압도적 1위</span><br>프랭크버거 사장님을 모십니다.</p>
+      </a>
+      <div class="btn_more">
+        <a href="#">MORE</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="quick">
+  <a href="#" class="top"><img src="img/quick_top.png" alt="top"></a>
+  <a href="#" class="home"><img src="img/quick_home.png" alt="home"></a>
+</div>
+
+<footer id="m_foot">
+  <div class="f_wrap">
+    <div class="center">
+       <p class="cs">고객지원 및 상담센터</p>
+       <a href="#">1544-7733</a>
+       <p>평일 09:00~18:00 / 점심 12:00~13:00</p>
+       <p>(토요일/일요일/공휴일 휴무)</p>
+    </div>
+
+    <div class="fter">
+      <div class="fmenu">
+      <ul>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+      </ul>
+      </div>
+
+      <div class="f_info">
+        <p>(주)프랭크 에프앤비 사업자 번호 : 130-86-76090</p>
+        <address>경기도 부천시 옥산로 181</address>
+        <p>&copy; 2019 FRANK F&B All Rights Reserved.</p>
+        <img src="img/foot_logo.png" alt="logo">
+        <p class="text">본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. <br> 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.</p>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<footer id="t_foot">
+  <div class="f_wrap">
+    <div class="awards">
+      <img src="img/pc_awords.png" alt="awards">
+      </div>
+    <div class="center">
+       <p class="cs">고객지원 및 상담센터</p>
+       <a href="#">1544-7733</a>
+       <p>평일 09:00~18:00 / 점심 12:00~13:00</p>
+       <p>(토요일/일요일/공휴일 휴무)</p>
+    </div>
+
+    <div class="fter">
+      <div class="fmenu">
+      <ul>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+      </ul>
+      </div>
+
+      <div class="f_info">
+        <p>(주)프랭크 에프앤비 사업자 번호 : 130-86-76090</p>
+        <address>경기도 부천시 옥산로 181</address>
+        <p>&copy; 2019 FRANK F&B All Rights Reserved.</p>
+        <img src="img/foot_logo.png" alt="logo">
+        <p class="text">본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. <br> 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.</p>
+      </div>
+    </div>
+    
+    <div class="another">
+      <p>자매 브랜드</p>
+      <a href="#"><img src="img/another1.png" alt="a1"></a>
+      <a href="#"><img src="img/another2.png" alt="a2"></a>
+    </div>
+  </div>
+</footer>
+
+<footer id="p_foot">
+  <div class="f_wrap">
+    <div class="awards">
+    <img src="img/pc_awords.png" alt="awards">
+    </div>
+    <div id="none">
+    <div class="left">
+      <div class="fmenu">
+      <ul>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+      </ul>
+      </div>
+
+      <div class="f_info">
+        <p>(주)프랭크 에프앤비 사업자 번호 : 130-86-76090</p>
+        <address>경기도 부천시 옥산로 181</address>
+        <p>&copy; 2019 FRANK F&B All Rights Reserved.</p>
+        <img src="img/foot_logo.png" alt="logo">
+        <p class="text">본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다. <br> 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.</p>
+      </div>
+    </div>
+    
+    <div class="right">
+    <div class="center">
+      <p class="cs">고객지원 및 상담센터</p>
+      <a href="#">1544-7733</a>
+      <p>평일 09:00~18:00 / 점심 12:00~13:00</p>
+      <p>(토요일/일요일/공휴일 휴무)</p>
+   </div>
+
+    <div class="another">
+      <p>자매 브랜드</p>
+      <a href="#"><img src="img/another1.png" alt="a1"></a>
+      <a href="#"><img src="img/another2.png" alt="a2"></a>
+    </div>
+  </div>
+
+  </div>
+</div>
+</footer>
+
+
+<script src="js/aos.js"></script>
+
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+    
+</script>
+</body>
+</html>

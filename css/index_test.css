@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+*,*:after,*:before {box-sizing: border-box;}
+
+ 
+ /* header */
+ #mobile_h {width: 100%; height: 70px; line-height: 70px; position: fixed;background: #fff; z-index: 1000;}
+ #mobile_h h1 {text-align: center;padding-top: 5px;margin-right: 15px;}
+ .hambtn {border: none;background: none;cursor: pointer;}
+.hambtn img {outline: none;background: none;border: none;position: absolute;left: 20px;top: 13px;margin-top: 7px;width: 23px; }
+ .m_deli {position: absolute;right: 10px;top: 4px;margin-top: 5px;width: 65px;}
+
+ #tablet_h, #pc_h, #video_banner, #t_contain, #pc_nav, #t_foot, #backimg, #p_foot {display: none;}
+
+
+ /* menu */
+ #menu_back {background: #fff;width: 100%;padding-top: 100px;}
+ #menu_back h2 {text-align: center;}
+
+.quick a {display: block;z-index: 9999;}
+.quick .top {position: fixed; bottom: 8rem;right: 15px;}
+.quick .home {position: fixed; bottom: 4.3rem;right: 15px;}
+
+/* footer */
+#m_foot {background: #f9f9f9;}
+.f_wrap {background: #f9f9f9;width: 100%;position: relative;padding: 1.3rem 1.5rem;}
+.f_wrap p {color: #aaa;font-size: 0.8rem;}
+.f_wrap>.center>.cs {font-size: 1rem!important;}
+.center>a {text-decoration: none;color: #bbb;font-weight: bold;font-size: 1.8rem;padding-bottom: 25px;}
+.center>p:last-child {padding-bottom: 5px;}
+address {color: #aaa;padding-bottom: 3px;font-size: 0.8rem;}
+.fmenu li {color: #aaa;display: inline-block;padding-bottom: 5px;}
+.fmenu li a {text-decoration: none;color: #aaa;}
+.f_info p {padding-bottom: 3px;}
+.f_info img {padding: 10px 0;}
+.f_info>.text {font-size: 3px!important;width: 50%;}
+
+#f_sns {position: absolute;right: 1.2rem;top: 1.3rem;}
+#f_sns p {font-family: "NGothicEB";font-size: 1rem;padding-bottom: 10px;}
+#f_sns a {display: inline-block;}
+
+
+@media screen and (min-width:641px) and (max-width:769px) {
+    #tablet_h {display: block;}
+    #mobile_h, #m_banner, #contain, #m_foot, #backimg, #p_foot {display: none;}
+    #t_foot {display: block;}
+    #video_banner {display: block;}
+  
+
+    /* header */
+    #tablet_h {width: 100%; height: 70px; line-height: 70px; position: fixed;background: #fff; z-index: 1000;}
+    #tablet_h h1 {text-align: center;padding-top: 5px;margin-right: 15px;}
+    /* #t_ham {position: absolute;left: 20px;top: 13px;margin-top: 7px;width: 25px;} */
+    .hambtn {border: none;background: none;cursor: pointer;}
+.hambtn img {outline: none;background: none;border: none;position: absolute;left: 20px;top: 13px;margin-top: 7px;width: 23px; }
+    #t_deli {position: absolute;right: 15px;top: 13px;margin-top: 5px;width: 70px;}
+
+      /*menu*/
+
+
+   /*t_footer*/
+   #t_foot>.f_wrap>img {text-align: center;margin-bottom: 20px;}
+   .awards {width: 100%;margin: 0 auto;padding: 20px 10px 40px 10px;}
+   .awards>img {width: 100%;}
+   .f_wrap {position: relative;}
+   .center {position: absolute;top: 8rem;right: 1.5rem;margin-top: 5px;}
+   .another {position: absolute;bottom: 1.7rem;right: 1.5rem;display: flex;}
+   .another>p {padding-right: 20px;padding-top: 10px;font-family: "Montserrat";font-size: 1rem;font-weight: 600;color: #aaa;}
+   .another a {padding-right: 20px;}
+   .another>a:last-child {padding-right: 0;}
+   .f_info>.text {font-size: 3px;width: 100%;}
+
+   #tf_sns {position: absolute;right: 8.5rem;bottom: 4.2rem;padding-bottom: 3px;}
+#tf_sns p {font-family: "NGothicEB";font-size: 1rem;padding-bottom: 3px;}
+#tf_sns a {display: inline-block;}
+}
+
+@media screen and (min-width:770px) and (max-width:887px) {
+    #mobile_h,#tablet_h, #m_banner, #contain, #t_contain, .mlist li .txt, #contain, #t_contain, #m_foot, #t_foot {display: none;}
+    #pc_h {display: block;}
+    #pc_nav, #p_foot {display: block;}
+    #video_banner {display: block;}
+    #ham_contain {display: none;}
+    #backimg {display: block;}
+
+    /* header*/
+    #pc_h {width: 100%; height: 70px; line-height: 70px; position: fixed;background: #fff; z-index: 1000;position: relative;}
+ #pc_h h1 {text-align: center;padding-top: 5px;margin-right: 15px;}
+ #p_deli {position: absolute;left: 15px;top: 12px;margin-top: 7px;width: 70px;}
+ #sns {position: absolute;right: 85px;top: 15px;display: flex;margin-top: 7px;}
+ #sns li {margin-right: 5px;}
+ #sns li:last-child {padding: 0 3px;}
+ #p_fran {position: absolute;right: 10px;top: 15px;margin-top: 7px;width: 70px;}
+
+ 
+    #menu {background: #7fc241; position: relative;}
+.gnb {width: 70%; margin: 0 auto; height: 45px;}
+.gnb li {float: left; width: 20%;}
+.gnb li a {display: block; line-height: 45px; color: #fff;font-size: 1.1rem;font-family: 'Montserrat'; text-align: center;text-decoration: none;}
+ 
+/*전체 메뉴 영역*/  
+#f_menu {position: absolute;left: 0;top: 115px; display: none;
+   width: 100%; height: 220px; background: rgba(238, 240, 244, 0.9);z-index: 99999;}
+
+#mbox {width: 70%; margin: 0 auto;}
+#f_menu ul {height: 220px; float: left; width: 20%; text-align: center;}
+
+#f_menu ul>li>a:hover {color: #7fc241;}
+#f_menu li {padding-top: 5px; height: 32px; line-height: 32px;}
+#f_menu li a {color: gray; display: block;text-decoration: none;font-size: 0.75rem;letter-spacing: -1px;}
+
+   /*menu*/
+
+
+ /*pc_footer*/
+ #p_foot {margin-top : 7rem;}
+ 
+ .another {display: flex;}
+ .another>p {padding-right: 20px;padding-top: 10px;font-family: "Montserrat";font-size: 1rem;font-weight: 600;color: #aaa;}
+ .another a {padding-right: 20px;}
+ .another>a:last-child {padding-right: 0;}
+ .f_info>.text {font-size: 3px!important;width: 100%;}
+
+ .awards {text-align: center;}
+ .awards img {width: 75%;}
+ #none {width: 80%; margin: 0 auto;display: flex;justify-content: space-between;}
+ .left {padding-top: 27px;}
+ .left li {font-size: 0.9rem;}
+ .right {padding-top: 30px;}
+ .center {padding-bottom: 10px;}
+ .right>.center>.cs {font-size: 0.9rem;}
+
+#pf_sns {padding-bottom: 3px;}
+#pf_sns p {font-family: "NGothicEB";font-size: 1rem;padding-bottom: 3px;}
+#pf_sns a {display: inline-block;}
+}
+
+@media screen and (min-width:888px) and (max-width:1920px) {
+    #mobile_h, #m_banner, #contain, #tablet_h, #t_contain, .mlist li .txt, #m_foot, #t_foot{display: none;}
+    #pc_h {display: block;}
+    #pc_nav, #p_foot {display: block;}
+    #video_banner {display: block;}
+    #ham_contain {display: none;}
+    #backimg {display: block;}
+ 
+ #pc_h {width: 100%; height: 70px; line-height: 70px; position: fixed;background: #fff; z-index: 1000;position: relative;}
+ #pc_h h1 {text-align: center;padding-top: 5px;margin-right: 15px;}
+ #p_deli {position: absolute;left: 15px;top: 12px;margin-top: 7px;width: 70px;}
+ #sns {position: absolute;right: 85px;top: 15px;display: flex;margin-top: 7px;}
+ #sns li {margin-right: 5px;}
+ #sns li:last-child {padding: 0 3px;}
+ #p_fran {position: absolute;right: 10px;top: 15px;margin-top: 7px;width: 70px;}
+
+ /*navigation*/
+ #menu {background: #7fc241; position: relative;}
+.gnb {width: 70%; margin: 0 auto; height: 45px;}
+.gnb li {float: left; width: 20%;}
+.gnb li a {display: block; line-height: 45px; color: #fff;font-size: 1.1rem;font-family: 'Montserrat'; text-align: center;text-decoration: none;font-weight: 600;}
+ 
+/*전체 메뉴 영역*/  
+#f_menu {position: absolute;left: 0;top: 115px; display: none;
+   width: 100%; height: 220px; background: rgba(238, 240, 244, 0.9);z-index: 99999;}
+
+#mbox {width: 70%; margin: 0 auto;}
+#f_menu ul {height: 220px; float: left; width: 20%; text-align: center;}
+
+#f_menu ul>li>a:hover {color: #7fc241;}
+#f_menu li {padding-top: 5px; height: 32px; line-height: 32px;}
+#f_menu li a {color: gray; display: block;text-decoration: none;font-size: 0.8rem;}
+
+
+   /*menu*/
+
+
+ /*pc_footer*/
+ #p_foot {margin-top : 10rem;}
+ 
+ .another {display: flex;}
+ .another>p {padding-right: 20px;padding-top: 10px;font-family: "Montserrat";font-size: 1rem;font-weight: 600;color: #aaa;}
+ .another a {padding-right: 20px;}
+ .another>a:last-child {padding-right: 0;}
+ .f_info>.text {font-size: 3px!important;width: 100%;}
+
+ .awards {text-align: center;}
+ .awards img {width: 70%;}
+ #none {width: 95%; margin: 0 auto;display: flex;justify-content: space-around;}
+ .left {padding-top: 27px;}
+ .left li {font-size: 0.9rem;}
+ .right {padding-top: 30px;}
+ .center {padding-bottom: 10px;}
+ .right>.center>.cs {font-size: 0.9rem;}
+
+ #pf_sns {padding-bottom: 3px;}
+#pf_sns p {font-family: "NGothicEB";font-size: 1rem;padding-bottom: 3px;}
+#pf_sns a {display: inline-block;}
+}
+
+
